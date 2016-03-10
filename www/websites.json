@@ -1,0 +1,66 @@
+{
+	"Websites":
+	[{
+		"ID":"1",
+		"Title":"Paradise Properties",
+		"ShortTitle":"Paradise",
+		"Photo":"img/sites/pp.png",
+		"Thumb":"img/sites/ppTH.png",
+		"Desc":"This was a nice little project to get my fingers going! Simple yet elegant design, I took advantage of the 'Sea-Side' colours. I put in anywhere from 40 - 60 Hrs, more late nights, not complaining. The client wanted a website to display his skills in photography. I bring the paradise to you. I learned many new things, I hope you enjoy browsing!",
+		"Url":"http://paradiseproperties.info/"
+	},
+	{
+		"ID":"2",
+		"Title":"Horror Movie DB",
+		"ShortTitle":"HMDB",
+		"Photo":"img/sites/HMDB.png",
+		"Thumb":"img/sites/HMDBTH.png",
+		"Desc":"This was a fun, but chalenging build. It's a database set up with over 200 titles. There is a 'Live Search' aspect implemented to the input field, with the help of AJAX & PHP, when you type into the search bar, it will give you results. Those results are movies that I've selected and entered into the database, 1 by 1. I hope to have 500 movies soon! Ontop of that, the 8 chosen 'Horror Slashers' are being called out by JSON calls. ENJOY!",
+		"Url":"http://michel-beaubien.com/hmdb/"
+	},
+	{
+		"ID":"3",
+		"Title":"Forrat's Chocolates",
+		"ShortTitle":"Forrat's",
+		"Photo":"img/sites/forratsLogo.png",
+		"Thumb":"img/sites/forratsLogoTH.png",
+		"Desc":"Small business in London Ontario. Marc Forrat is a famous chocolatier and needed a better website. I worked in a group of five people to complete this website, I was the Front-End Developer. This ment I was responsible for coding the site. A lot went in this project.",
+		"Url":"http://michel-beaubien.com/forrats/"
+	},
+	{
+		"ID":"4",
+		"Title":"Just Eventzz",
+		"ShortTitle":"Eventzz",
+		"Photo":"img/sites/eventzz.png",
+		"Thumb":"img/sites/eventzzTH.png",
+		"Desc":"For this website, I am not the original developer. I was brought on after the site was live. Since then I've been asked to do minor CSS changes. The client and I are in touch to make this website a true eye catcher.",
+		"Url":"http://www.justeventzz.com/"
+	},
+	{
+		"ID":"5",
+		"Title":"Beyond The Beach",
+		"ShortTitle":"BTB",
+		"Photo":"img/sites/BTB.png",
+		"Thumb":"img/sites/BTBTH.png",
+		"Desc":"I was asked to redo this website, it is for a None Profit Organization called Beyond the Beach. When first recieving this project, I sketched ideas together, set a colour scheme and so on, all without getting a real idea of what was expexted, It was loved.",
+		"Url":"http://beyondthebeach.ca/"
+	},
+	{
+		"ID":"6",
+		"Title":"Tycrete Construction",
+		"ShortTitle":"Tycrete",
+		"Photo":"img/sites/tycrete.png",
+		"Thumb":"img/sites/tycreteTH.png",
+		"Desc":"This was my first client base website. I did this for a friend, over 95hrs coded into the project. I did everything, coded, styled etc. I learned a few things along the way, including a few Javascript methods. Being that this was my first freelance job, it opened my mind to how wicked and fun this life can be.",
+		"Url":"http://michel-beaubien.com/tycrete/"
+	},
+	{
+		"ID":"7",
+		"Title":"Back To The Future",
+		"ShortTitle":"BTTF",
+		"Photo":"img/sites/bttfLogo.png",
+		"Thumb":"img/sites/bttfLogoTH.png",
+		"Desc":"Back To The Future re-release website. Mobile sizing, viewable on a desktop and mobile phone. I had to also edit together a teaser/trailer video for this film. If you're a fan of the movie, I hope you enjoy this site.",
+		"Url":"websites/BTTF/index.html"
+	}]
+}

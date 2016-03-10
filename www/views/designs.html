@@ -1,5 +1,33 @@
+<ion-header-bar class="header">
+    <h1 class="title">My Designs</h1>
+</ion-header-bar>
+
 <ion-content>
 
-	<p>This is the designs page.</p>
+	<div class="list">
+		<div class="item item-divider">
+			Illustrations
+		</div>
+
+		<a href="#/designs/{{$index}}" class="item" data-ng-repeat="draw in draws"><!--ng repeat  here-->
+			{{draw.Title}}
+		</a>
+
+		<div class="item item-divider">
+			CD Covers
+		</div>
+
+		<a href="#/designs/{{$index}}" class="item" data-ng-repeat="cover in covers"><!--ng repeat  here-->
+			{{cover.Title}}
+		</a>
+
+		<div class="item item-divider">
+			Pass Time
+		</div>
+
+		<a href="#/designs/{{$index}}" class="item" data-ng-repeat="time in times"><!--ng repeat  here-->
+			{{time.Title}}
+		</a>
+	</div><!--list-->
 
 </ion-content>

@@ -38,6 +38,16 @@ portfolio.config(['$stateProvider','$urlRouterProvider', function($stateProvider
 		}
 	});
 
+	$stateProvider.state('website',{
+		url: '/websites/:ID',
+		views: {
+			websites: {
+				templateUrl: 'views/websiteDetails.html',
+				controller: 'websiteDetailsCTRL'
+			}
+		}
+	});
+
 
 	$stateProvider.state('designs',{
 		url: '/designs',
@@ -45,6 +55,16 @@ portfolio.config(['$stateProvider','$urlRouterProvider', function($stateProvider
 			designs: {
 				templateUrl: 'views/designs.html',
 				controller: 'designsCTRL'
+			}
+		}
+	});
+
+	$stateProvider.state('design',{
+		url: '/designs/:ID',
+		views: {
+			designs: {
+				templateUrl: 'views/designDetails.html',
+				controller: 'designDetailsCTRL'
 			}
 		}
 	});
@@ -76,11 +96,43 @@ portfolio.controller('homeCTRL',['$scope','$http',function($scope,$http){
 }]);
 
 portfolio.controller('websitesCTRL',['$scope','$http',function($scope,$http){
-	
+	$http.get('websites.json').success(function(site){
+		$scope.sites = site.Websites;
+		//console.log($scope.sites);
+	});
+}]);
+
+portfolio.controller('websiteDetailsCTRL',['$scope','$http','$stateParams',function($scope,$http,$stateParams){
+	$http.get('websites.json').success(function(details){
+		$scope.Title = details.Websites[$stateParams.ID].Title;
+		$scope.Photo = details.Websites[$stateParams.ID].Photo;
+		$scope.Desc = details.Websites[$stateParams.ID].Desc;
+		$scope.Url = details.Websites[$stateParams.ID].Url;
+	});
 }]);
 
 portfolio.controller('designsCTRL',['$scope','$http',function($scope,$http){
-	
+	$http.get('designs.json').success(function(designs){
+		$scope.draws = designs.Designs;
+		$scope.covers = designs.Covers;
+		$scope.times = designs.Pass;
+	});
+}]);
+
+portfolio.controller('designDetailsCTRL',['$scope','$http','$stateParams',function($scope,$http,$stateParams){
+	$http.get('designs.json').success(function(design){
+		$scope.Title = design.Designs[$stateParams.ID].Title;
+		$scope.Photo = design.Designs[$stateParams.ID].Photo;
+		$scope.Desc = design.Designs[$stateParams.ID].Desc;
+
+		$scope.Title = design.Covers[$stateParams.ID].Title;
+		$scope.Photo = design.Covers[$stateParams.ID].Photo;
+		$scope.Desc = design.Covers[$stateParams.ID].Desc;
+
+		$scope.Title = design.Pass[$stateParams.ID].Title;
+		$scope.Photo = design.Pass[$stateParams.ID].Photo;
+		$scope.Desc = design.Pass[$stateParams.ID].Desc;
+	});
 }]);
 
 portfolio.controller('biographyCTRL',['$scope','$http',function($scope,$http){

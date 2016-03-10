@@ -1,0 +1,15 @@
+<ion-header-bar class="header">
+<button id="back" class="button button-left button-dark ion-android-arrow-back" ui-sref="designs"></button>
+    <h1 class="title">{{Title}}</h1>
+</ion-header-bar>
+
+<ion-content>
+
+	<div class="list card">
+		<div class="item">
+			<img class="full-image" data-ng-src="{{Photo}}" alt="{{Title}}">
+			<p data-ng-bind-html="Desc"></p>
+		</div>
+	</div><!--list card-->
+
+</ion-content>

@@ -1,5 +1,19 @@
+<ion-header-bar class="header">
+    <h1 class="title">Websites</h1>
+</ion-header-bar>
+
 <ion-content>
 
-	<p>This is the website page.</p>
+      <div class="list" data-ng-repeat="site in sites">
+
+        <a href="#/websites/{{$index}}">
+          <div class="item item-avatar">
+          	<img data-ng-src="{{site.Thumb}}" alt="{{site.Title}}">
+          	<h2>{{site.Title}}</h2>
+          	<span class="mobile"><h2>{{site.ShortTitle}}</h2></span>
+          </div>
+        </a>
+
+      </div><!--list card-->
 
 </ion-content>

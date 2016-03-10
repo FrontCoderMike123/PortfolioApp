@@ -1,0 +1,119 @@
+{
+	"Designs":
+	[{
+		"ID":"1",
+		"Title":"Blue Eyes",
+		"ShortTitle":"Blue Eyes",
+		"Photo":"img/designs/blue.jpg",
+		"Thumb":"img/designs/blueTH.jpg",
+		"Desc":"Illustrator, layers upon layers."
+	},
+	{
+		"ID":"2",
+		"Title":"Secret Spy",
+		"ShortTitle":"Spy",
+		"Photo":"img/designs/suit.png",
+		"Thumb":"img/designs/suitTH.png",
+		"Desc":"Yellow Suited Secret Spy"
+	},
+	{
+		"ID":"3",
+		"Title":"Music Player",
+		"ShortTitle":"Music",
+		"Photo":"img/designs/player.png",
+		"Thumb":"img/designs/playerTH.png",
+		"Desc":"Created a beautiful music player for the iPod."
+	},
+	{
+		"ID":"4",
+		"Title":"Fake Graffiti",
+		"ShortTitle":"Graffiti",
+		"Photo":"img/designs/graffiti.jpg",
+		"Thumb":"img/designs/graffitiTH.jpg",
+		"Desc":"A fake drawing of a graffiti painting posted on a wall with myself possing infront."
+	},
+	{
+		"ID":"5",
+		"Title":"Comic Book Villain",
+		"ShortTitle":"Comic Book",
+		"Photo":"img/designs/self.png",
+		"Thumb":"img/designs/selfTH.png",
+		"Desc":"Evil drawing of myself as a villain from a comic book."
+	},
+	{
+		"ID":"6",
+		"Title":"Tim Burton Google Logo",
+		"ShortTitle":"Google",
+		"Photo":"img/designs/google.png",
+		"Thumb":"img/designs/googleTH.png",
+		"Desc":"Illustrator, layers upon layers."
+	}],
+
+	"Covers":
+	[{
+		"ID":"1",
+		"Title":"Mazart",
+		"ShortTitle":"Mazart",
+		"Photo":"img/cds/mozart.png",
+		"Thumb":"img/cds/mozartTH.png",
+		"Desc":"Recreation of Mozart' Greatest Hits CD."
+	},
+	{
+		"ID":"2",
+		"Title":"Neil Young",
+		"ShortTitle":"Neil Young",
+		"Photo":"img/cds/neil.png",
+		"Thumb":"img/cds/neilTH.png",
+		"Desc":"Recreation of Neil Young's Harvest CD."
+	},
+	{
+		"ID":"3",
+		"Title":"Pink Floyd",
+		"ShortTitle":"Pink Floyd",
+		"Photo":"img/cds/floyd.png",
+		"Thumb":"img/cds/floydTH.png",
+		"Desc":"Recreation of Pink Floyd's The Wall CD."
+	},
+	{
+		"ID":"4",
+		"Title":"Offspring",
+		"ShortTitle":"Offspring",
+		"Photo":"img/cds/offspring.png",
+		"Thumb":"img/cds/offspringTH.png",
+		"Desc":"Recreation of Offspring's Conspiracy of One CD."
+	}],
+
+	"Pass":
+	[{
+		"ID":"1",
+		"Title":"The Beatles",
+		"ShortTitle":"The Beatles",
+		"Photo":"img/passTime/beatles.jpg",
+		"Thumb":"img/passTime/beatlesTH.jpg",
+		"Desc":"Beatles Group Shot, Illustrator Layers."
+	},
+	{
+		"ID":"2",
+		"Title":"Jason Voorhess",
+		"ShortTitle":"Jason Voorhess",
+		"Photo":"img/passTime/jason.jpg",
+		"Thumb":"img/passTime/jasonTH.jpg",
+		"Desc":"Friday the 13th's Jason Voorhess."
+	},
+	{
+		"ID":"3",
+		"Title":"Freddy Krueger",
+		"ShortTitle":"Freddy Krueger",
+		"Photo":"img/passTime/freddy.jpg",
+		"Thumb":"img/passTime/freddyTH.jpg",
+		"Desc":"1-2 Freddy's Coming for You."
+	},
+	{
+		"ID":"4",
+		"Title":"Leatherface",
+		"ShortTitle":"Leatherface",
+		"Photo":"img/passTime/leather.jpg",
+		"Thumb":"img/passTime/leatherTH.jpg",
+		"Desc":"Texas Chainsaw's Leatherface."
+	}]
+}

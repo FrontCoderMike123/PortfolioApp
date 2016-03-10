@@ -1,0 +1,116 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>VIDEOS PAGE</title>
+	<meta name="description" content="Back To The Future Re-Release">
+	<meta name="author" content="Michel Beaubien">
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+	
+	<!-- CSS -->
+    <link href='http://fonts.googleapis.com/css?family=Expletus+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Warnes' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/amazium.css">
+    <!--<link rel="stylesheet" href="css/form.css">-->
+	<link rel="stylesheet" href="css/layout.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.6/TweenMax.min.js"></script>
+
+<body>
+	<h1 class="hidden">Re-Release BTTF Website</h1>
+    
+    <header class="row"><!--start Main Header-->
+    	<div class="grid_4 top"><!--start Logo Div-->
+        <a href="index.html"><img src="images/bttf_logo_main_without_arrow.jpg" alt="Back To The Future Website" id="logo"></a>
+        <a href="index.html"><img src="images/bttf_logo_main.jpg" alt="Back To The Future Website" id="logo2"></a>
+        <img id="arrow" src="images/BTTF-Arrow.gif" alt="BTTF Arrow Zooming In">
+        </div><!--end logo Div-->
+        <nav class="grid_6 offset_2" id="mainNav"><!--start Main Nav-->
+        	<h2 class="hidden">Main Navigation</h2>
+            
+            <ul>
+            	<li><a href="index.html">HOME</a></li>
+                <li><a href="film.html">FILM</a></li>
+                <li><a href="videos.html">VIDEOS</a></li>
+                <li><a href="photos.html">PHOTOS</a></li>
+                <li><a href="register.html">REGISTER</a></li>
+            </ul>
+            
+            <select id="menuSelect">
+            	<option selected="selected">Go To...</option>
+                <option value="index.html">HOME</option>
+                <option value="film.html">FILM</option>
+                <option value="videos.html">VIDEOS</option>
+                <option value="photos.html">PHOTOS</option>
+                <option value="register.html">REGISTER</option>
+            </select>
+            
+      	</nav><!--end Main Nav-->
+    </header><!--end Main Header-->
+    
+    <section class="pano"><!--start PanoGram-->
+    	<h2 class="hidden">Movie Trailer</h2>
+        
+        <div class="row">
+        
+        <div class="grid_2 videoButton">
+        <h2 class="hidden">5 Second Teaser</h2>
+        	<button id="teaser">5 Second Teaser</button>
+        </div>
+        
+        	<div class="grid_8 videoBox">
+            
+            	<video id="trailerBox">
+                	<source src="video/teaser.mp4" type="video/mp4">
+                    <source src="video/teaser.webm" type="video/webm">
+                    <source src="video/teaser.ogv" type="video/ogg">
+                </video>
+                
+                <div class="controls">
+	<div class="rewindVideo player-button">Rew.</div>
+	<div class="playVideo player-button">Play</div>
+    <div class="stopVideo player-button">Stop</div>
+    <div class="fastVideo player-button">Fast</div>
+    <div><input id="vidVol" type="range" max="100" value="100"></div>
+    </div>
+                
+            </div>
+            
+            <div class="grid_2 videoButton">
+            <h2 class="hidden">30 Second Trailer</h2>
+            	<button id="trailer">30 Second Trailer</button>
+            </div>
+            
+        </div>
+  	</section><!--end Pano Section-->
+    
+    <footer id="footerCon"><!--Start Footer-->
+        <div class="row">
+        	<nav class="grid_6 offset_6" id="footerNav">
+            <h2 class="hidden">Footer Navigation</h2>
+            <ul>
+            	<li><a href="index.html">HOME</a></li>
+                <li><a href="film.html">FILM</a></li>
+                <li><a href="videos.html">VIDEOS</a></li>
+                <li><a href="photos.html">PHOTOS</a></li>
+                <li><a href="register.html">REGISTER</a></li>
+            </ul>
+            </nav>
+            
+          
+        </div>
+    </footer><!--End Footer-->
+
+<script src="js/main.js"></script>
+
+
+</body>
+</html>

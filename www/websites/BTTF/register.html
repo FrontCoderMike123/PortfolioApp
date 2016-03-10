@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>REGISTER PAGE</title>
+	<meta name="description" content="Back To The Future Re-Release">
+	<meta name="author" content="Michel Beaubien">
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+	
+	<!-- CSS -->
+    <link href='http://fonts.googleapis.com/css?family=Expletus+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Warnes' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/amazium.css">
+    <!--<link rel="stylesheet" href="css/form.css">-->
+	<link rel="stylesheet" href="css/layout.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+<body>
+	<h1 class="hidden">Re-Release BTTF Website</h1>
+    
+    <header class="row"><!--start Main Header-->
+    	<div class="grid_4 top"><!--start Logo Div-->
+        <a href="index.html"><img src="images/bttf_logo_main_without_arrow.jpg" alt="Back To The Future Website" id="logo"></a>
+        <a href="index.html"><img src="images/bttf_logo_main.jpg" alt="Back To The Future Website" id="logo2"></a>
+        <img id="arrow" src="images/BTTF-Arrow.gif" alt="BTTF Arrow Zooming In">
+        </div><!--end logo Div-->
+        <nav class="grid_6 offset_2" id="mainNav"><!--start Main Nav-->
+        	<h2 class="hidden">Main Navigation</h2>
+            
+            <ul>
+            	<li><a href="index.html">HOME</a></li>
+                <li><a href="film.html">FILM</a></li>
+                <li><a href="videos.html">VIDEOS</a></li>
+                <li><a href="photos.html">PHOTOS</a></li>
+                <li><a href="register.html">REGISTER</a></li>
+            </ul>
+            
+            <select id="menuSelect">
+            	<option selected="selected">Go To...</option>
+                <option value="index.html">HOME</option>
+                <option value="film.html">FILM</option>
+                <option value="videos.html">VIDEOS</option>
+                <option value="photos.html">PHOTOS</option>
+                <option value="register.html">REGISTER</option>
+            </select>
+            
+      	</nav><!--end Main Nav-->
+    </header><!--end Main Header-->
+    
+    
+    <section class="row"><!--start form Section-->
+    	<div class="pano">
+    	<h2 class="hidden">Movie Prize Sign Up/Register</h2>
+        <div class="grid_6 offset_1 registerBox">
+        <img id="winning" src="images/winningPrize.jpg" alt="Winning Prize Poster">
+        <img id="winning2" src="images/winningPrizefull.jpg" alt="Winning Prize Poster">
+        <p id="giveAwayText" class="rotate">Back To The Future Give Away!</p>
+        </div>
+        
+        <section class="grid_4 registerBox">
+        
+        <h2 class="hidden">Register Box</h2>
+        
+        <div id="textWrapper">
+        	<section id="form">
+       		<form action="demo_form.asp" autocomplete="on">
+            <h2>Enter To Win</h2>
+  		<span class="inputType">First name:</span><br><input type="text" name="fname"><br>
+  		<span class="inputType">Last name:</span><br> <input type="text" name="lname"><br>
+        <input type="radio" name="sex" value="male">Male
+		<input type="radio" name="sex" value="female">Female<br>
+        <h2>Which Movie is Your Favorite?</h2>
+        <input type="radio" name="favorite" value="yes">Back To The Future One<br>
+		<input type="radio" name="favorite" value="yes">Back To The Future Two<br>
+		<input type="radio" name="favorite" value="yes">Back To The Future Three<br>
+  		<span class="inputType">E-mail:</span> <input type="email" name="email" autocomplete="off"><br>
+        <section id="comment">
+        <h2>Comment Here</h2>
+        <textarea rows="8" cols="100"></textarea><!--Comment area-->
+        <p>Hit Enter To Submit</p>
+        </section>
+        </form>
+        </section><!--end Form-->
+        </div><!--end textWrapper-->
+        <p class="apply">Apply Here</p>
+        </section>
+        
+   </div>
+   
+   </section>
+    
+    
+    <footer id="footerCon"><!--Start Footer-->
+        <div class="row">
+        	<nav class="grid_6 offset_6" id="footerNav">
+            <h2 class="hidden">Footer Navigation</h2>
+            <ul>
+            	<li><a href="index.html">HOME</a></li>
+                <li><a href="film.html">FILM</a></li>
+                <li><a href="videos.html">VIDEOS</a></li>
+                <li><a href="photos.html">PHOTOS</a></li>
+                <li><a href="register.html">REGISTER</a></li>
+            </ul>
+            </nav>
+            
+          
+        </div>
+    </footer><!--End Footer-->
+
+<script src="js/TweenMax.min.js"></script>
+<script src="js/register.js"></script>
+
+
+</body>
+</html>

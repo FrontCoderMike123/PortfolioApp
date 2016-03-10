@@ -1,0 +1,1720 @@
+.hidden
+{
+	display:none;
+}
+
+.box-shadow
+{
+    box-shadow: 0px 15px 25px rgba(51, 51, 51, 1);
+}
+
+h2
+{
+    font-family: Orbitron;
+}
+
+h1
+{
+    font-family: warnes;
+}
+
+.row [class^="grid_"]
+{ 	
+	margin-top: 5px;
+	padding: 5px 0 5px 0;
+	color: #fff;
+	background-color: #003366;
+	text-align: center;
+	line-height: 30px;
+	overflow: hidden;
+}
+
+.pano, #footerCon
+{
+    margin-top: 35px;
+	margin-bottom: 50px;
+    padding: 5px 0 5px 0;
+}
+
+body
+{
+	font-family: 'Expletus Sans', cursive;
+	background: url(../images/cassette_tape_background.jpg) repeat-y;
+	margin-top: 10px;
+	/* set to 100% in base.css*/
+}
+
+.top
+{
+	position: relative;
+	margin-top: 0;
+}
+
+#logo
+{
+	overflow: hidden;
+	max-width: 97%;
+}
+
+#logo2
+{
+	overflow: hidden;
+	display: none;
+	max-width: 97%;
+}
+
+#arrow
+{
+    position: absolute;
+    left: 1400px;
+    top: 0;
+    z-index: 1; 
+}
+
+#mainNav
+{
+    max-width: 100%;
+	border-radius: 19px;
+    box-shadow: 15px 15px 25px rgba(0, 51, 102, 1); 
+	
+	background: rgb(0,46,102); /* Old browsers */
+    background: -moz-linear-gradient(45deg, rgba(0,46,102,1) 0%, rgba(42,129,216,1) 37%, rgba(0,46,102,1) 81%, rgba(126,181,232,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(0,46,102,1)), color-stop(37%,rgba(42,129,216,1)), color-stop(81%,rgba(0,46,102,1)), color-stop(100%,rgba(126,181,232,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg, rgba(0,46,102,1) 0%,rgba(42,129,216,1) 37%,rgba(0,46,102,1) 81%,rgba(126,181,232,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg, rgba(0,46,102,1) 0%,rgba(42,129,216,1) 37%,rgba(0,46,102,1) 81%,rgba(126,181,232,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg, rgba(0,46,102,1) 0%,rgba(42,129,216,1) 37%,rgba(0,46,102,1) 81%,rgba(126,181,232,1) 100%); /* IE10+ */
+    background: linear-gradient(45deg, rgba(0,46,102,1) 0%,rgba(42,129,216,1) 37%,rgba(0,46,102,1) 81%,rgba(126,181,232,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002e66', endColorstr='#7eb5e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#mainNav ul
+{
+    max-width: 100%;
+	margin-top: 12px;
+	list-style: none;
+	padding: 5px;
+	font-size: 1.15em;
+	float: left;
+	margin-bottom: 15px;
+}
+
+#mainNav ul li
+{
+    max-width: 100%;
+	font-family: 'orbitron', cursive;
+	background-image: none;
+	display: inline;
+}
+
+#mainNav ul li a
+{   
+    max-width: 100%;
+    background-color: #ccffff;
+    border: solid 1px #000033;
+	color: #000033;
+	text-decoration: none;
+    padding: 5px;
+}
+
+#mainNav ul li a:hover
+{
+    max-width: 100%;
+	border-bottom: 3px solid #000033;
+    border-top: 3px solid #000033;
+	padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+#footerNav
+{
+    max-width: 100%;
+	border-radius: 19px;
+    box-shadow: 15px 15px 25px rgba(0, 51, 102, 1); 
+	
+	background: rgb(0,46,102); /* Old browsers */
+    background: -moz-linear-gradient(45deg, rgba(0,46,102,1) 0%, rgba(42,129,216,1) 37%, rgba(0,46,102,1) 81%, rgba(126,181,232,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(0,46,102,1)), color-stop(37%,rgba(42,129,216,1)), color-stop(81%,rgba(0,46,102,1)), color-stop(100%,rgba(126,181,232,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg, rgba(0,46,102,1) 0%,rgba(42,129,216,1) 37%,rgba(0,46,102,1) 81%,rgba(126,181,232,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg, rgba(0,46,102,1) 0%,rgba(42,129,216,1) 37%,rgba(0,46,102,1) 81%,rgba(126,181,232,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg, rgba(0,46,102,1) 0%,rgba(42,129,216,1) 37%,rgba(0,46,102,1) 81%,rgba(126,181,232,1) 100%); /* IE10+ */
+    background: linear-gradient(45deg, rgba(0,46,102,1) 0%,rgba(42,129,216,1) 37%,rgba(0,46,102,1) 81%,rgba(126,181,232,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002e66', endColorstr='#7eb5e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#footerNav ul
+{
+    max-width: 100%;
+	margin-top: 12px;
+	list-style: none;
+	padding: 5px;
+	font-size: 1.15em;
+	float: left;
+	margin-bottom: 15px;
+}
+
+#footerNav ul li
+{
+    max-width: 100%;
+	font-family: 'orbitron', cursive;
+	background-image: none;
+	display: inline;
+}
+
+#footerNav ul li a
+{   
+    max-width: 100%;
+    background-color: #ccffff;
+    border: solid 1px #000033;
+	color: #000033;
+	text-decoration: none;
+    padding: 5px;
+}
+
+#footerNav ul li a:hover
+{
+    max-width: 100%;
+	border-bottom: 3px solid #000033;
+    border-top: 3px solid #000033;
+	padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+nav select
+{
+	display: none;
+}
+
+#carImage 
+{ 
+	max-width: 95%;
+    margin-left: 2.5%;
+	display: block; 
+	border: solid 2px white; 
+	height: 390px; 
+}
+
+#thumbs li 
+{ 
+    background-color: #000033;
+    border-radius: 3px;
+    padding: 4px;
+    margin-left: 21px;
+	display: inline-block;
+	cursor: pointer; 
+	opacity: .9; 
+	transition: opacity .5s; 
+	-webkit-transition: opacity .5s; 
+	-moz-transition: opacity .5s; 
+    box-shadow: -2px -2px 3px black;
+}
+
+#thumbs li:hover 
+{ 
+	opacity: 1;
+}
+
+.promoText
+{
+    width: 98%;
+    margin-left: 1%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.promoText h2
+{
+    color: #ff6600;
+    border-bottom: 2px solid #ff6600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.promoTextBox
+{
+    border-radius: 5px;
+}
+
+.controls
+{
+    font-family: expletus;
+	font-size: 16px;
+	text-transform: uppercase;
+    display: inline-block;
+    background-color: #006699;
+    max-width: 100%;
+    border-radius: 5px;
+    height: 45px;
+    padding-top: 4px;
+    border: 1px solid white;
+}
+
+.controls div
+{
+    max-width: 100%;
+    width: 60px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+	color: #003366;
+    font-weight: bold;
+	float: left;
+	line-height: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.controls div:hover
+{
+    color: #000;
+    font-size: 17px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 51, 1);
+}
+
+#trailerBox
+{
+	max-width: 95%;
+	margin-top: 10px;
+    border: 2px solid white;
+}
+
+.videoBox
+{
+	max-width: 100%;
+    border-radius: 20px;
+    border: 3px solid black;
+    box-shadow: 0px 15px 25px rgba(51, 51, 51, 1);
+}
+
+.videoButton
+{
+    max-width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.videoButton button
+{
+	max-width: 100%;
+    background-color: white;
+    margin-left: 5px;
+    margin-bottom: 0;
+    font-family: Orbitron;
+    text-decoration: underline;
+    line-height: 30px;
+    color: #003366;
+}
+
+.videoButton button:hover
+{
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+
+#BeforeIForget
+{
+    margin-bottom: 5px;
+}
+
+#vidVol
+{
+	max-width: 100%;
+}
+
+.photos
+{
+	max-width: 97%;
+	max-height: 97%;
+}
+
+.pictureBox
+{
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0px 15px 25px rgba(51, 51, 51, 1);
+}
+
+.pictureBox:hover
+{
+    margin-top: 10px;
+    cursor: pointer;
+    border: 2px dashed black;
+}
+
+.moviePoster
+{
+    max-width: 98%;
+}
+
+#moviePrize
+{
+    max-width: 100%;
+}
+
+#form
+{
+    background-color: #3399ff;
+    padding: 5%;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin: 3%;
+    text-align: center;
+    color: black;
+    box-shadow: -6px -6px 5px rgba(51, 51, 51, 1);  
+}
+
+#form input
+{
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+}
+
+#form h2
+{
+    color: #fff;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+#form h2:hover
+{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px dashed black;
+    cursor: pointer;
+}
+
+#comment
+{
+    text-decoration: underline;
+}
+
+#comment textarea
+{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#comment h2
+{
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+#comment h2:hover
+{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px dashed black;
+    cursor: pointer;
+}
+
+.inputType
+{
+    text-decoration: underline;
+    font-family: Warnes;
+    margin-right: 3px;
+    color: #003366;
+    cursor: pointer;
+}
+
+.inputType:hover
+{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px dashed black;
+}
+
+#comment p
+{
+    color: #003366;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 3px;
+    border: 1px solid black;
+    box-shadow: 0px 4px 4px white;
+    cursor: pointer;
+}
+
+#textWrapper 
+{ 
+	display:none; 
+}
+
+.apply
+{ 
+    background-color: #fff;
+	margin: 0 auto;
+    max-width: 90%;
+	padding: 5px;
+    color: #003366; 
+    font-size: 18px;
+    font-family: Warnes;
+	cursor: pointer; 
+	text-decoration: underline;
+	border: dashed 1px #000;
+	border-radius: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    
+    box-shadow: 0px 4px 4px;
+    
+    opacity: .8; 
+	transition: opacity .5s; 
+	-webkit-transition: opacity .5s; 
+	-moz-transition: opacity .5s; 
+}
+
+.apply:hover
+{
+    opacity: 1;
+
+}
+
+.showAll 
+{ 
+	display: block !important; /*ask about this in class*/
+}
+
+.registerBox
+{
+	position: relative;
+    border-radius: 20px;
+    border: 2px solid white;
+    box-shadow: 0px 15px 25px rgba(51, 51, 51, 1);
+    margin-bottom: 150px;
+}
+
+.photoBox
+{
+    border-radius: 3px;
+    border: 2px solid #fff;
+    box-shadow: 0px 15px 25px white;
+}
+
+.rotate {
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=-1);
+}
+
+#winning
+{
+    max-width: 95%;
+    margin: 8px 0 8px 0;
+    opacity: .9;
+    transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+}
+
+#winning:hover
+{
+    opacity: 1;
+}
+
+#winning2
+{
+    max-width: 95%;
+    margin: 8px 0 8px 0;
+    opacity: .9;
+    transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+	display: none;
+}
+
+#winning2:hover
+{
+    opacity: 1;
+}
+
+#giveAwayText
+{
+	position: absolute;
+	left: -500px;
+	top: 100px;
+	z-index: 2;
+	
+	font-size: 1em;
+	font-weight: bold;
+	font-family: orbitron;
+	color: #000;
+	background-color: #0033cc;
+	border-radius: 5px;
+	max-width: 100%;
+	padding: 10px;
+	
+	opacity: .9;
+	-webkit-opacity: .9;
+	-moz-opacity: .9;
+	
+}
+
+#imageContainer 
+{ 
+	max-width: 95%; 
+	height: 400px; 
+	width: 400px; 
+	margin: 0 auto; 
+	overflow: hidden;
+    border-radius: 20px;
+    border: 1px solid #fff;
+}
+
+.filmBox
+{
+	position: relative;
+    max-width: 100%;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.filmText
+{
+    max-width: 100%;
+	display: block;
+	margin: auto;
+    color: #fff;
+	background-color: #6699ff;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    margin-top: 5px;
+    
+}
+
+#houseImages 
+{ 
+	position: relative; 
+	width: 1200px;
+}
+
+#houseImages img 
+{ 
+    max-width: 100%;
+	float: left;
+}
+
+#bottomNav 
+{ 
+    max-width: 85%;
+	background-color: #0066cc;
+    border-radius: 10px;
+    margin: 0 auto;
+    border: 1px solid #fff;
+}
+
+#navList li
+{ 
+    max-width: 100%;
+	display: inline; 
+	list-style-type: none; 
+	padding: 10px 10px; 
+	cursor: pointer; 
+}
+
+.sigilContainer 
+{ 
+    max-width: 100%;
+    width:270px; 
+    height: 135px; 
+    display:inline-block; 
+    overflow: hidden; 
+    background-image: url(../images/bttfSprites.jpg);
+    background-repeat:no-repeat; 
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.bttf1
+{ 
+    max-width: 100%;
+    background-position:-20px -70px; 
+
+}  
+.bttf1:hover 
+{ 
+    background-position: -35px -70px; 
+}
+
+.bttf2 
+{ 
+     max-width: 100%;
+    background-position:-370px -65px; 
+}
+
+.bttf2:hover 
+{ 
+    background-position:-380px -65px; 
+}
+
+.bttf3 
+{
+     max-width: 100%;
+    background-position:-688px -65px; 
+}
+
+.bttf3:hover 
+{ 
+    background-position:-700px -65px; 
+}
+
+.promoSection
+{
+	margin-top: 50px;
+	padding-bottom: 5px;
+    margin-bottom: 50px;
+}
+
+#mainIndex
+{
+	position: relative;
+    margin-left: 2.5%;
+    max-width: 95%;
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+}
+
+#glasses2
+{
+    position: absolute;
+	left: 1200px;
+	top: 0px;
+    z-index: 1;
+}
+
+#glasses
+{
+	position: absolute;
+	left: -500px;
+	top: 0px;
+	z-index: 1;
+}
+
+#mainIndex h2
+{
+    float: left;
+    letter-spacing: 16px;
+    max-width: 100%;
+    margin-left: 12%;
+    color: #003366;
+    margin-top: 20px;
+}
+
+#mainIndex h2:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#waiting
+{
+    color: #006699;
+}
+
+#mainIndex h1
+{
+    float:left;
+    color: #003366;
+    font-family: orbitron;
+    margin-bottom: 20px;   
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+#back
+{
+    color: red;
+	font-family: warnes;
+}
+
+#dvd
+{
+    position: absolute;
+	left: -200px;
+	top: 10px;
+    z-index: 1;
+    opacity: .9;
+    transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+}
+
+#dvd:hover
+{
+    opacity: 1;
+}
+
+#dvd2
+{
+    position: absolute;
+	left: 1200px;
+	top: 10px;
+    z-index: 1;
+    opacity: .9;
+    transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+}
+
+#dvd2:hover
+{
+    opacity: 1;
+}
+
+#indexPromo
+{
+    margin-left: 2.5%;
+    max-width: 95%;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    float: left;
+    border-radius: 4px;
+    margin-top: 10px;
+    background-color: #0066cc;
+}
+
+#indexPromo h2
+{
+    margin: 0 auto;
+	font-family: warnes;
+	letter-spacing: 3px;
+    margin-top: 20px;
+    background-color: #003366;
+    max-width: 75%;
+	font-size: 24px;
+    color: white;
+    border-radius: 5px;
+	border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#indexPromo p
+{
+    background-color: #003366;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    max-width: 95%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/***** Screen Smaller than 1199px *****/
+@media only screen and (min-width: 400px) and (max-width: 1199px) {	
+	.row
+	{
+		max-width: 100%;
+	}
+	
+	
+	body
+	{
+		font-size: 85%;
+	}
+	
+	#arrow
+	{
+		display: none;
+	}
+	
+	#logo
+	{
+		display: none;
+	}
+	
+	#logo2
+	{
+		display: list-item;
+		max-width: 97%;
+		display: block;
+		margin-left: 1.5%;
+		overflow: hidden;
+	}
+
+
+	#mainNav
+	{
+		max-width: 100%;
+	}
+	
+	#mainNav ul 
+	{
+		max-width: 100%;
+		padding: 0;
+	}
+	
+	#mainNav ul li 
+	{
+		max-width: 100%;
+		padding: 0;
+		margin-left: 5px;
+	}
+    
+    #glasses
+    {
+        display: none;
+    }
+    
+    #glasses2
+    {
+        display: none;
+    }
+    
+    #dvd
+    {
+        display: none;
+    }
+	
+	#footerNav
+	{
+		max-width: 100%;
+	}
+	
+	#footerNav ul 
+	{
+		max-width: 100%;
+		padding: 0;
+	}
+	
+	#footerNav ul li 
+	{
+		max-width: 100%;
+		padding: 0;
+		margin-left: 5px;
+	}
+	
+	#trailerBox
+	{
+		max-width: 95%;
+	}
+	
+	.sigilContainer
+	{
+		width: 200px;
+		height: 100px;
+		background-image: url(../images/bttfSpritesSmaller.jpg);
+		background-repeat: no-repeat;
+	}
+	
+	#mainIndex h2
+	{
+		line-height: 40px;
+	}
+	
+	#winning
+	{
+		display: none;
+	}
+	
+	#winning2
+	{
+		display: list-item;
+		max-width: 95%;
+		display: block;
+		margin: 0 auto;
+	}
+	
+	#giveAwayText
+	{
+		display: none;
+	}
+}
+
+/***** Tablet (Smaller than 959px) *****/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.row
+	{
+		max-width: 100%;
+	}
+	
+	
+	body
+	{
+		font-size: 85%;
+	}
+	
+	#arrow
+	{
+		display: none;
+	}
+	
+	#mainNav
+	{
+		max-width: 100%;
+	}
+	
+	#mainNav ul 
+	{
+		max-width: 100%;
+		padding: 0;
+		margin: 4px;
+	}
+	
+	#mainNav ul li 
+	{
+		max-width: 100%;
+		padding: 0;
+		margin-left: 5px;
+	}
+	
+	#mainNav ul li a
+	{
+		font-size: 12px;
+	}
+	
+	#mainNav ul li a:hover
+	{
+		border: none;
+		padding-bottom: 0px;
+		padding-top: 0px;
+	}
+	
+	#footerNav
+	{
+		max-width: 100%;
+	}
+	
+	#footerNav ul 
+	{
+		max-width: 100%;
+		padding: 0;
+		margin: 4px;
+	}
+	
+	#footerNav ul li 
+	{
+		max-width: 100%;
+		padding: 0;
+		margin-left: 5px;
+	}
+	
+	#footerNav ul li a
+	{
+		font-size: 12px;
+	}
+	
+	#footerNav ul li a:hover
+	{
+		border: none;
+		padding-bottom: 0px;
+		padding-top: 0px;
+	}
+	
+	.videoButton button
+	{
+		max-width: 90%;
+		padding: 5px;
+	}
+	
+	.photoBox
+	{
+		max-width: 100%;
+	}
+	
+	#carImage
+	{
+		height: 300px;
+	}
+	
+	.sigilContainer
+	{
+		width: 150px;
+		height: 100px;
+		background-image: url(../images/bttfSpritesSmallerThenSmall.jpg);
+		background-repeat: no-repeat;
+	}
+	
+	.bttf1:hover
+	{
+		background-position: -25px -70px; 
+	}
+	
+	.bttf2:hover
+	{
+		 background-position:-375px -65px; 
+	}
+	
+	.bttf3:hover
+	{
+		 background-position:-695px -65px; 
+	}
+	
+	#giveAwayText
+	
+	{
+		display: none;
+	}
+}
+
+/***** Mobile (portrait 300px) *****/
+@media only screen and (max-width: 767px) {
+	.row
+	{
+		overflow: hidden;
+	}
+	
+	body
+	{
+		font-size: 85%;
+	}
+	
+	#arrow
+	{
+		display: none;
+	}
+	
+	#logo
+	{
+		margin: auto;
+		max-width: 100%;
+		overflow: hidden;
+		display: none;
+	}
+	
+	.top
+	{
+		overflow: hidden;
+	}
+	
+	#logo2
+	{
+		display: list-item;
+		max-width: 97%;
+		display: block;
+		margin-left: 1.5%;
+	}
+	
+	#mainNav
+	{
+		max-width: 75%;
+		margin: 0 auto;
+		display: block;
+		overflow: hidden;
+		margin-top: 10px;
+	}
+	
+	#mainNav ul 
+	{
+		max-width: 100%;
+		padding: 0;
+		margin: 0;
+		margin-top: 10px; 
+		margin-bottom: 10px;
+	}
+	
+	#mainNav ul li 
+	{
+		max-width: 100%;
+		padding: 0;
+		margin-left: 10px;
+		margin-top: 20px;
+	}
+	
+	#mainNav ul li a
+	{
+		font-size: 18px;
+		background: none;
+		border: none;
+		color: #fff;
+		border: none;
+	}
+	
+	#mainNav ul li a:hover
+	{
+		border: none; 
+		color: #000;
+	}
+	
+    
+    #glasses
+    {
+        display: none;
+    }
+    
+    #glasses2
+    {
+        display: none;
+    }
+    
+    #dvd
+    {
+        display: none;
+    }
+	
+	#footerNav
+	{
+		max-width: 75%;
+		margin: 0 auto;
+		display: block;
+		overflow: hidden;
+		margin-top: 10px;
+	}
+	
+	#footerNav ul 
+	{
+		max-width: 100%;
+		padding: 0;
+		margin: 0;
+		margin-top: 10px; 
+		margin-bottom: 10px;
+	}
+	
+	#footerNav ul li 
+	{
+		max-width: 100%;
+		padding: 0;
+		margin-left: 10px;
+		margin-top: 20px;
+	}
+	
+	#footerNav ul li a
+	{
+		font-size: 18px;
+		color: #fff;
+		background: none;
+		border: none;
+	}
+	
+	#footerNav ul li a:hover
+	{
+		border: none;
+		color: #000;
+	}
+	
+	.videoButton
+	{
+		max-width: 33%;
+		display: block;
+		margin: 0 auto;
+	}
+	
+	.videoButton button
+	{
+		max-width: 90%;
+		padding: 5px;
+	}
+	
+	#trailerBox
+	{
+		max-width: 95%;
+		margin-top: 10px;
+	}
+	
+	.photoBox
+	{
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	
+	.filmBox
+	{
+		max-width: 100%;
+		overflow: hidden;
+		display: block;
+		margin: 0 auto;
+	}
+	
+	#mainIndex h2
+	{
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+	
+	#mainIndex h1
+	{
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+		font-size: 24px;
+	}
+	
+	#vidVol
+	{
+		max-width: 100%;
+		overflow: hidden;
+	}
+	
+	#giveAwayText
+	{
+		display: none;
+	}
+	
+}
+
+@media only screen and (max-width: 690px){
+	
+	.row
+	{
+		max-width: 100%;
+	}
+	
+	
+	#mainNav
+	{
+		max-width: 100%;
+	}
+	
+	#mainNav ul
+	{
+		max-width: 100%;
+	}
+	
+	#mainNav ul li a
+	{
+		font-size: 17px;
+		background: none;
+		border: none;
+		color: #fff;
+	}
+	
+	#mainNav ul li a:hover
+	{
+		border: none;
+		color: #000;
+	}
+	
+	#footerNav
+	{
+		max-width: 100%;
+	}
+	
+	#footerNav ul
+	{
+		max-width: 100%;
+	}
+	
+	#footerNav ul li a
+	{
+		font-size: 17px;
+		background: none;
+		border: none;
+		color: #fff;
+		margin-left: 20px;
+	}
+	
+	#footerNav ul li a:hover
+	{
+		border: none;
+		color: #000;
+	}
+	
+	.photoBox
+	{
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	
+	#vidVol
+	{
+		max-width: 100%;
+		overflow: hidden;
+	}
+	
+	#giveAwayText
+	{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 620px){
+	.row
+	{
+		max-width: 100%;
+	}
+	
+	
+	#mainNav ul 
+	{
+		max-width: 100%;
+	}
+	
+	#mainNav ul li
+	{
+		max-width: 100%;
+		background: none;
+		border: none;
+	}
+	
+	#mainNav ul li a
+	{
+		font-size: 15px;
+	}
+	
+	#footerNav ul
+	{
+		max-width: 100%;
+	}
+	
+	#footerNav ul li 
+	{
+		max-width: 100%;
+		background: none;
+		border: none;
+	}
+	
+	#footerNav ul li a
+	{
+		font-size: 15px;
+	}
+	
+	.photoBox
+	{
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	
+	#giveAwayText
+	{
+		display: none;
+	}
+}
+
+/***** Mobile (landscape 420px) *****/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	#logo2
+	{
+		max-width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	
+	.row
+	{
+		max-width: 100%;
+		overflow: hidden;
+	}
+	
+	#mainNav ul li
+	{
+		float: none;
+		margin: 20px;
+	}
+	
+	#footerNav ul li 
+	{
+		float: none;
+	}
+	
+	.photoBox
+	{
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	
+	#vidVol
+	{
+		max-width: 100%;
+		overflow: hidden;
+	}
+	
+	#giveAwayText
+	{
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 252px) and (max-width: 500px){
+	.row
+	{
+		max-width: 100%;
+	}
+	
+	#footerNav ul li a
+	{
+		margin-left: 10px;
+	}
+	
+	.photoBox
+	{
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	
+	#carImage
+	{
+		height: 150px;
+	}
+	
+	.controls
+	{
+		max-width: 100%;
+		display: inline-block;
+		margin: 0 auto;
+	}
+	
+	.controls div
+	{
+		overflow: hidden;
+		font-size: .75em;
+		max-width: 100%;
+		width: 40px;
+		margin-top: 40px;
+		margin: 1px;
+	}
+	
+	.controls div:hover
+	{
+		font-size: 12.5px;
+	}
+	
+	#vidVol
+	{
+		overflow: hidden;
+		float: left;
+		max-width: 100%;
+	}
+	
+	#winning2
+	{
+		display: list-item;
+		max-width: 95%;
+		display: block;
+		margin: 0 auto;
+	}
+	
+	#giveAwayText
+	{
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 400px) and (max-width: 252px) {
+	
+	.photoBox
+	{
+		max-width: 100%;
+	}
+	
+	#carImage
+	{
+		height: 300px;
+		max-width: 98%;
+	}
+	
+	.photoBox
+	{
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	
+	#carImage
+	{
+		height: 150px;
+	}
+	
+	#winning2
+	{
+		display: list-item;
+		max-width: 95%;
+		display: block;
+		margin: 0 auto;
+	}
+	
+	#giveAwayText
+	{
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 400px) and (min-width: 252px){
+	
+	.videoButton
+	{
+		max-width: 75%;
+	}
+	
+	.videoButton button
+	{
+		max-width: 100%;
+	}
+	
+	.photoBox
+	{
+		max-width: 100%;
+	}
+	
+	#carImage
+	{
+		height: 150px;
+	}
+	
+	#indexPromo h2
+	{
+		font-size: 95%;
+	}
+	
+	#indexPromo p
+	{
+		font-size: 90%;
+	}
+	
+	#mainIndex h2
+	{
+		max-width: 100%;
+		display: block;
+		margin: 0 auto;
+		font-size: 14px;
+		padding: 5px;
+		letter-spacing: 2px;
+	}
+	
+	#mainIndex h1
+	{
+		max-width: 100%;
+		display: block;
+		margin: 0 auto;
+		font-size: 14px;
+		padding: 5px;
+	}
+	
+	#back
+	{
+		font-size: 16px;
+		margin-left: 5px;
+	}
+	
+	#waiting
+	{
+		font-size: 80%;
+	}
+	
+	.photoBox
+	{
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	
+	#carImage
+	{
+		max-width: 98%;
+		margin: 0;
+	}
+	
+	.sigilContainer
+	{
+		width: 100px;
+		height: 75px;
+		background-image: url(../images/bttfSpritesSmallest.psd.jpg);
+		background-repeat: no-repeat;
+	}
+	
+	.bttf1:hover
+	{
+		background-position: -20px -70px; 
+	}
+	
+	.bttf2:hover
+	{
+		background-position:-370px -65px; 
+	}
+	
+	.bttf3:hover
+	{
+		background-position:-688px -65px; 
+	}
+	
+	#winning 
+	{
+		display: none;
+	}
+	
+	#winning2
+	{
+		display: list-item;
+		max-width: 95%;
+		display: block;
+		margin: 0 auto;
+	}
+	
+	#giveAwayText
+	{
+		display: none;
+	}
+	
+	.controls div
+	{
+		width: 40px;
+		margin-left: 6px;
+		font-size: .5em;
+	}
+	
+	.controls div:hover
+	{
+		font-size: .6em;
+	}
+	
+	#vidVol
+	{
+		display: none;
+	}
+	
+	.videoButton
+	{
+		max-width: 100%;
+		
+	}
+	
+	.videoButton button
+	{
+		width: 100%;
+		font-size: 95%;
+		margin: 0;
+	}
+	
+	.videoButton button:hover
+	{
+		font-size: 12px;
+		border-radius: 0px;
+	}
+	
+	#thumbs li img
+	{
+		width: 75px;
+	}
+	
+	#mainNav ul li a
+	{
+		font-size: 12px;
+	}
+	
+	#footerNav ul li a
+	{
+		font-size: 12px;
+	}
+	
+	#footerNav ul li
+	{
+		margin: 0;
+	}
+
+}
