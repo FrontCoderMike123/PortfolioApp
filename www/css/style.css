@@ -1,0 +1,56 @@
+body
+{
+	cursor: url('../img/custumCursor.png'), auto;
+}
+
+p,a,input
+{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-family: 'Nunito', sans-serif;
+}
+
+ion-nav-view
+{
+	background-color: #ebebeb;
+}
+
+.header
+{
+	position: relative;
+	border-bottom-color: #aa1111;
+	box-shadow: 0 10px 10px -10px rgba(170,17,17,.5);
+}
+
+.header object,.header img
+{
+	width: 60px;
+	margin-top: 3px;
+}
+
+object
+{
+	pointer-events: none;
+}
+
+.title
+{
+	color: #aa1111;
+}
+
+.tabs
+{
+	background-color: #aa1111;
+}
+
+.tab-item
+{
+	color: #ebebeb;
+}
+
+.tab-item.tab-item-active, .tab-item.active, .tab-item.activated {
+    color: #fff;
+}
