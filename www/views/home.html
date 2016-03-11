@@ -6,19 +6,25 @@
 
 <div class="list card">
 
-  <div class="item item-avatar">
-   	<img src="img/me.jpg" alt="ME">
+  <div class="item item-thumbnail-left item-text-wrap">
+    <img data-ng-src="{{PNG}}" alt="ME">
     <h2>Michel Beaubien</h2>
     <p>Front End Developer</p>
   </div>
 
-  <div class="item item-body">
-  	<h2>About Me</h2>
+  <div class="item item-divider">
+    <h3>About Me</h3>
+  </div>
+
+  <div class="item item-body item-text-wrap">
     <p>Hello, Bonjour. My name is Michel Beaubien. I have come a very long way since high school. Over the years, I have matured, I have grown. Everyday is a new and exciting challenge, another bump to get over. Knowledge is everything in this industry, I want to learn more, I need to learn more. My passion is in Web Coding/Designing. Hire me. You will not be disappointed. I am a bilingual Canadian. Small town guy, nothing fun ever happened, had to make your own fun. That meant a lot of days spent by the beach. Enough was enough, it was time for a change. I packed up and moved to London. That fall I started my first year of Interactive Media Design and Production at Fanshawe. Change is good. Change is needed.</p>
   </div>
 
+  <div class="item item-divider">
+    <h3>Client Websites</h3>
+  </div>
+
   <div class="item">
-  	<h2>Client Websites</h2>
   	<div class="button-bar row responsive-sm">
   		<a href="#" class="button col" ng-click="toshow = 1">Just Eventzz</a>
   		<a href="#" class="button col" ng-click="toshow = 2">Paradise Properties</a>
@@ -28,7 +34,7 @@
   	</div>
   </div>
 
-  <div class="item item-body">
+  <div class="item item-body item-text-wrap">
   	<div ng-show="toshow == 1">
   		<h2>Just Eventzz - 2015 / Present</h2>
   		<p>For this website, I am not the original developer. I was brought on after the site was live. Since then I've been asked to do minor CSS changes. The client and I are in touch to make this website a true eye catcher.</p>

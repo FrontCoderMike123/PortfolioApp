@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="144px"
+	 height="164px" viewBox="0 0 144 164" enable-background="new 0 0 144 164" xml:space="preserve">
+<g id="Layer_1">
+	<image overflow="visible" width="55" height="55" xlink:href="mongo.png"  transform="matrix(2.6182 0 0 2.6182 0 10)">
+	</image>
+</g>
+<g id="Layer_2">
+	<path fill="#82C865" d="M71.471,161.261C-4.631,121.522-2.51,47.059,6.75,26.997c0,0,11.178-24.21,65.289-22.474
+		c0,0,53.339,0.964,64.721,22.474c9.26,20.063,11.381,94.525-64.721,134.265"/>
+	<path fill="#412F1F" d="M71.517,148.537C7.764,115.247,9.541,52.867,17.298,36.059c0,0,9.365-20.281,54.694-18.827
+		c0,0,44.685,0.809,54.219,18.827c7.758,16.808,9.535,79.188-54.219,112.478"/>
+	<path fill="#82C865" d="M71.754,22.752c0,0,5.782,10.996,10.702,17.651c4.919,6.655,30.961,58.451-10.417,83.336
+		c0,0-36.749-20.545-23.728-65.975C58.149,34.906,67.998,34.617,71.754,22.752z"/>
+	<path fill="#759B3A" d="M72.039,34.038v82.468c0,0,21.124-7.233,19.387-43.259C87.375,44.166,72.039,34.038,72.039,34.038z"/>
+</g>
+</svg>

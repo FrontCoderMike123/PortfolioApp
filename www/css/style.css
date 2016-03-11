@@ -15,9 +15,19 @@ h1,h2,h3,h4,h5,h6
 	font-family: 'Nunito', sans-serif;
 }
 
+p
+{
+	margin: 0!important;
+}
+
 ion-nav-view
 {
 	background-color: #ebebeb;
+}
+
+img
+{
+	max-width: 100%;
 }
 
 .header
@@ -45,21 +55,70 @@ object
 
 .tabs
 {
-	background-color: #aa1111;
+	border-top-color: #aa1111;
 }
 
 .tab-item
 {
-	color: #ebebeb;
+	color: rgba(170,17,17,.7);
 }
 
 .tab-item.tab-item-active, .tab-item.active, .tab-item.activated {
-    color: #fff;
+    color: #aa1111;
 }
 
-.mobile
+.block
 {
 	display: none;
 }
 
 /***************************HOME********************************/
+
+
+
+/***************************web********************************/
+
+
+
+/***************************desg********************************/
+
+
+
+/***************************bio********************************/
+.toolDivider h3
+{
+	text-align: center;
+	margin: 0;
+}
+
+
+
+
+/***************************contact********************************/
+
+
+
+
+
+
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+  .mobile
+	{
+		display: none;
+	}
+	
+	.block
+	{
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+}

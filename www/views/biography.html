@@ -4,6 +4,68 @@
 
 <ion-content>
 
-	<p>This is the bio page.</p>
+	<div class="list card">
+		<div class="item item-thumbnail-left item-text-wrap">
+			<img data-ng-src="{{ME}}" alt="Michel Beaubien">
+			<h2>Michel Beaubien</h2>
+			<p><span class="bioAtt">Born:</span> {{Born}}</p>
+			<p><span class="bioAtt">City:</span> {{City}}</p>
+			<p><span class="bioAtt">Job:</span> {{Job}}</p>
+		</div>
+
+		<div class="item item-divider">
+			<h3>A little about me...</h3>
+		</div>
+
+		<div class="item item-body item-text-wrap">
+		<p>Born &amp; raised in a small town up North, named Elliot Lake. Summers were spent by the beach, winters on the slopes. Days by the water, nights by the fire. Time came for a change, that's when I moved down South to beautiful London Ontario. It's here where I found my calling, to become a front-end developer. I am a graduate of the IDP &amp; IMS program at Fanshawe College, where I was taught HTML, CSS, Javascript, PHP, mobile-development, and many other useful tools. I am a hard worker, I am dedicated to this line of work and above all, I love what I do.</p>
+		</div>
+
+		<div class="item item-divider">
+			<h3>Responsive Website Design</h3>
+		</div>
+
+		<div class="item item-body item-text-wraps">
+			<object data="img/tools/responsive.svg">
+				<img src="img/tools/responsive.png" alt="Responsive Design">
+			</object>
+		</div>
+
+		<div class="item item-divider row responsive-sm toolDivider">
+			<h3 data-ng-repeat="tool in tools" class="col mobile">{{tool.Title}}</h3>
+			<h3 class="block">Skills</h3>
+		</div>
+
+		<div class="item-text-wrap">
+			<div class="row responsive-md">
+				<div class="col" data-ng-repeat="tool in tools">
+					<object class="full-image" data="{{tool.SVG}}">
+						<img class="full-image" ng-src="{{tool.PNG}}" alt="{{tool.Title}}">
+					</object>
+				</div>
+			</div>
+		</div>
+
+		<div class="item item-divider row responsive-sm toolDivider">
+			<h3 data-ng-repeat="trade in trades" class="col mobile">{{trade.Title}}</h3>
+			<h3 class="block">Tools of the Trade</h3>
+		</div>
+
+		<div class="item-text-wrap">
+			<div class="row responsive-md">
+				<div class="col" data-ng-repeat="trade in trades">
+					<object class="full-image" data="{{trade.SVG}}">
+						<img class="full-image" ng-src="{{trade.PNG}}" alt="{{trade.Title}}">
+					</object>
+				</div>
+			</div>
+		</div>
+
+		<div class="item item-divider">
+			<h3>F.R.E.S.H</h3>
+			<p>Friendship Remains Eternal Stop Hating</p>
+		</div>
+
+	</div><!--list card-->
 
 </ion-content>
