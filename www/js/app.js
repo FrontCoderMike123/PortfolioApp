@@ -1,4 +1,4 @@
-var portfolio = angular.module('portfolio', ['ionic'])
+var portfolio = angular.module('portfolio', ['ionic','ngCordova'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -162,4 +162,33 @@ portfolio.controller('biographyCTRL',['$scope','$http',function($scope,$http){
 
 portfolio.controller('contactCTRL',['$scope','$http',function($scope,$http){
 	$scope.ME = "img/me.jpg";
+
+	$scope.jobs = [
+
+		{ text: 'Free Estimate', value: 'Free Estimate' },
+		{ text: 'Website Creation', value: 'Website Creation' },
+		{ text: 'Business Card Design', value: 'Business Card Design' }
+	];
+
+	$scope.data = { clientSide: 'Free Estimate' };
+}]);
+
+portfolio.controller('fileTransfer',['$scope','$cordovaFileTransfer', function($scope, $cordovaFileTransfer) {
+ 	$scope.testFileDownload = function(){
+ 	var url = "img/resumes/MichelBeaubien_Resume.pdf";
+ 	var filename = url.split("/").pop();
+ 	var targetPath = codova.file.externalRootDirectory + filename;
+
+ 	$cordovaFileTransfer.download(url, targetPath, {}, true).then(function (result) {
+    	console.log('Success');
+	}, function (error) {
+    	console.log('Error');
+	}, function (progress) {
+    	// PROGRESS HANDLING GOES HERE
+	});
+ 	};
+
+ 	$scope.testFileUpload = function(){
+
+ 	};
 }]);
