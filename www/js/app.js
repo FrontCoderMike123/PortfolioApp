@@ -160,19 +160,48 @@ portfolio.controller('biographyCTRL',['$scope','$http',function($scope,$http){
 	];
 }]);
 
-portfolio.controller('contactCTRL',['$scope','$http',function($scope,$http){
+portfolio.controller('contactCTRL',['$scope','$http','$ionicLoading',function($scope,$http,$ionicLoading){
 	$scope.ME = "img/me.jpg";
-
 	$scope.jobs = [
-
 		{ text: 'Free Estimate', value: 'Free Estimate' },
 		{ text: 'Website Creation', value: 'Website Creation' },
 		{ text: 'Business Card Design', value: 'Business Card Design' }
 	];
-
 	$scope.data = { clientSide: 'Free Estimate' };
+
+	$scope.message = {
+		'name':'',
+		'tel':'',
+		'city':'',
+		'email':'',
+		'message':''
+	};
+
+	$scope.finalSubmit = function(){
+		$ionicLoading.show({ template: 'Submitting...Thank You!', duration: 1500 })
+	};
 }]);
 
+portfolio.directive('formManager', function($ionicLoading){
+	return {
+		restrict : 'A',
+		controller: function($scope){
+			$scope.$watch('contactMe.$valid', function(){
+				console.log('Form validity changed. Now : ' + $scope.contactMe.$valid);
+			});
+
+			$scope.submit = function(){
+				if($scope.contactMe.$valid){
+					$scope.finalSubmit();
+				}else{
+					$ionicLoading.show({ template: 'You Must Be Missing Some Info', duration: 1500 })
+				}
+			}
+		}
+	}
+});
+
+/*
 portfolio.controller('fileTransfer',['$scope','$cordovaFileTransfer', function($scope, $cordovaFileTransfer) {
  	$scope.testFileDownload = function(){
  	var url = "img/resumes/MichelBeaubien_Resume.pdf";
@@ -191,4 +220,4 @@ portfolio.controller('fileTransfer',['$scope','$cordovaFileTransfer', function($
  	$scope.testFileUpload = function(){
 
  	};
-}]);
+}]);*/

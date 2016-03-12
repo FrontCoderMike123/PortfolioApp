@@ -1,3 +1,18 @@
+<?php
+    require_once('includes/redirect.php');
+
+    if(isset($_POST['submit'])) {
+        $name = $_POST['fullName'];
+        $city = $_POST['city'];
+        $tel = trim($_POST['telephone']);
+        $email = trim($_POST['email']);
+        $radio = $_POST['jobs'];
+        $message = $_POST['message'];
+        
+        submitMessage($name, $city, $prov, $tel, $email, $radio, $message);
+    }
+?>
+
 <ion-header-bar class="header">
     <h1 class="title">Contact Information</h1>
 </ion-header-bar>
@@ -5,18 +20,6 @@
 <ion-content>
 
 	<div class="list card">
-		<div class="item item-divider" data-ng-controller="fileTransfer">
-			<h3>Hire Me</h3>
-			<div class="item item-text-wrap item-icon-left">
-				<i class="icon ion-checkmark-circled"></i>
-				<a href="#" ng-click="testFileDownload()">Resume</a>
-			</div>
-
-			<div class="item item-text-wrap item-icon-left">
-				<i class="icon ion-android-attach"></i>
-				<a href="#">Business Card</a>
-			</div>
-		</div>
 
 		<div class="item item-text-wrap item-icon-left">
 			<i class="icon ion-android-desktop"></i>
@@ -42,38 +45,60 @@
 			<h3>Contact Me</h3>
 		</div>
 
+<form name="contactMe" class="myForm"
+novalidate form-manager
+action="<?php echo $_SERVER['PHP_SELF']; ?>"
+method="post">
 		<div class="list list-inset">
-		<form action="" method="post">
-			<label class="item item-input">
-    			<input type="text" name="name" placeholder="Full Name">
-  			</label>
-  			<label class="item item-input">
-    			<input type="tel" name="tel" placeholder="Telephone">
-  			</label>
-  			<label class="item item-input">
-    			<input type="text" name="city" placeholder="City">
-  			</label>
-  			<label class="item item-input">
-    			<input type="email" name="email"  placeholder="Email Address">
-  			</label>
+			
+			<label class="item item-input"> 
+				<input ng-model="message.name"
+				name="fullName" type="text"
+				placeholder="Full Name" required
+				ng-minlength="2" ng-maxlength="50">
+			</label>
 
-  			<label class="item item-input">
-    			<textarea type="message" name="message" placeholder="Job Information"></textarea>
-  			</label>
+			<label class="item item-input"> 
+				<input ng-model="message.tel"
+				name="telephone" type="tel"
+				placeholder="Telephone + Area Code" required
+				ng-minlength="10" ng-maxlength="50">
+			</label>
+
+			<label class="item item-input"> 
+				<input ng-model="message.city"
+				name="city" type="text"
+				placeholder="City" required
+				ng-maxlength="50">
+			</label>
+
+			<label class="item item-input"> 
+				<input ng-model="message.email"
+				name="email" type="email"
+				placeholder="Email Address" required
+				ng-maxlength="50">
+			</label>
+
+			<label class="item item-input">
+                <textarea ng-model="message.message"
+                name="message" placeholder="Message"
+                rows="3" required ng-minlength="2"
+                ng-maxlength="70"></textarea>
+            </label>
 
   			<div class="item item-divider item-text-wrap">
-  				<h3>Selected Job Type: {{data.clientSide}}</h3>
+  				<h3>Selected Job: {{data.clientSide}}</h3>
   			</div>
 
-  			<ion-radio ng-repeat="job in jobs" ng-value="job.value" ng-model="data.clientSide">
+  			<ion-radio ng-name="jobs" ng-repeat="job in jobs" ng-value="job.value" ng-model="data.clientSide">
   			{{job.text}}
   			</ion-radio>
 
-  			<button class="button button-full" type="submit" name="submit">
+  			<button class="button button-full" ng-click="submit()">
   				Send
   			</button>
-		</form>
 		</div>
+</form>
 
 	</div>
 

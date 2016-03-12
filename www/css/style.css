@@ -96,6 +96,10 @@ object
 
 /***************************contact********************************/
 
+.myForm textarea
+{
+	resize: none;
+}
 
 
 
