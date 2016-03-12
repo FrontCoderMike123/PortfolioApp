@@ -47,12 +47,11 @@
 
 <form name="contactMe" class="myForm"
 novalidate form-manager
-action="<?php echo $_SERVER['PHP_SELF']; ?>"
-method="post">
+ng-submit="form()">
 		<div class="list list-inset">
 			
 			<label class="item item-input"> 
-				<input ng-model="message.name"
+				<input ng-model="data.fullName"
 				name="fullName" type="text"
 				placeholder="Full Name" required
 				ng-minlength="2" ng-maxlength="50">
@@ -94,11 +93,15 @@ method="post">
   			{{job.text}}
   			</ion-radio>
 
-  			<button class="button button-full" ng-click="submit()">
+  			<button class="button button-full"><!--ng-click="submit"-->
   				Send
   			</button>
 		</div>
 </form>
+
+<div class="item item-divider item-text-wrap">
+	Info: <span ng-bind="info"></span>
+</div>
 
 	</div>
 

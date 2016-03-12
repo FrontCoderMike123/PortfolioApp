@@ -180,6 +180,16 @@ portfolio.controller('contactCTRL',['$scope','$http','$ionicLoading',function($s
 	$scope.finalSubmit = function(){
 		$ionicLoading.show({ template: 'Submitting...Thank You!', duration: 1500 })
 	};
+
+	$scope.data = {};
+
+	$scope.form = function(){
+		var link = "http://michel-beaubien.com/test/api.php";
+
+		$http.post(link,{fullName: $scope.data.fullName}).then(function(res){
+			$scope.info = res.data;
+		});
+	};
 }]);
 
 portfolio.directive('formManager', function($ionicLoading){
